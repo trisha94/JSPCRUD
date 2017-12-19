@@ -20,8 +20,7 @@ ${param.email}
 Dao daoObj = new Dao();
 String rows = daoObj.insertData(obj);
 %>
-<h1>Data Inserted Successfully Rows Affected= ${rows}
-</h1>
+<h1>Data Inserted Successfully Rows Affected= ${rows}</h1>
 
 
 
